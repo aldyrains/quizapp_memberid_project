@@ -8,6 +8,7 @@ const kRedColor = Color(0xFFE92E30);
 const kGrayColor = Color(0xFFC1C1C1);
 const kBlackColor = Color(0xFF101010);
 const kWhiteColor = Colors.white;
+const kProgressBar = Color(0xfffdd083);
 const kPrimaryGradient = LinearGradient(
   colors: [Color(0xFF46A0AE), Color(0xFF00FFCB)],
   begin: Alignment.centerLeft,

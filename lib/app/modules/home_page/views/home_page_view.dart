@@ -4,9 +4,10 @@ import 'package:get/get.dart';
 import 'package:quizapp_project/app/routes/app_pages.dart';
 import 'package:quizapp_project/constant.dart';
 
+import '../../quiz_page/controllers/quiz_page_controller.dart';
 import '../controllers/home_page_controller.dart';
 
-class HomePageView extends GetView<HomePageController> {
+class HomePageView extends GetView<QuizPageController> {
   const HomePageView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
